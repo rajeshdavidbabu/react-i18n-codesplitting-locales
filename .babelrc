@@ -1,0 +1,14 @@
+// The presets add a pre-defined set of plugins latest for latest JavaScript syntax, react and typescript.
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react", "@babel/preset-typescript"],
+    "plugins": [
+      [
+        // A plugin that enables the re-use of Babel's injected helper code to save on codesize.
+        "@babel/plugin-transform-runtime",
+        {
+          // Adds required corejs polyfills to your production code.
+          "corejs": { "version": 3, "proposals": true }
+        }
+      ]
+    ]
+  }
