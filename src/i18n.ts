@@ -10,7 +10,7 @@ import { initReactI18next } from 'react-i18next';
 
 const LANG_KEY: string = new URLSearchParams(window?.location?.search).get('language') || 'en';
 
-const init = async () => {
+export const init = async () => {
   const resources = await import(`./locales/${LANG_KEY}.json`);
 
   i18n.use(initReactI18next).init({

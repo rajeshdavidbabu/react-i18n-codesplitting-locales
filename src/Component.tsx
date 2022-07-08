@@ -5,7 +5,7 @@ const Component = () => {
   const { t, i18n } = useTranslation();
 
   // Change language without re-loading application.
-  const changeLanguageHandler = async () => {
+  const loadJapanese = async () => {
     const resource = await import('./locales/ja.json');
 
     await i18n.addResourceBundle('ja', 'translation', resource.default.translation);
@@ -16,7 +16,7 @@ const Component = () => {
     <div>
       <h2>Minimal React TS App with React-i18next Lazyloading</h2>
       <p>{t('welcome')}</p>
-      <button onClick={changeLanguageHandler}>Change to Japanese</button>
+      <button onClick={loadJapanese}>Change to Japanese</button>
     </div>
   );
 };
