@@ -19,8 +19,4 @@ export const init = async () => {
   });
 };
 
-init()
-  .then(() => console.log(`Language ${LANG_KEY} loaded!`))
-  .catch(() => console.error(`Failed to load ${LANG_KEY}, please check the language-key`));
-
 export default i18n;
