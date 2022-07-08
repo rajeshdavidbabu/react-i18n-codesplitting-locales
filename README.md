@@ -1,6 +1,6 @@
-# react-18n-codesplitting-locales
+# react-i18n-codesplitting-locales
 
-A simple react-18n to code-split locale files using dynamic imports.
+A simple react-i18n to code-split locale files using dynamic imports.
 
 ## Installation and Running
 
