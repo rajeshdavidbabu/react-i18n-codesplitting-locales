@@ -10,7 +10,7 @@ npm run serve
 // Open http://localhost:3000/?language=fr on the browser.
 ```
 
-Currently supports three languages en, fr and ja.
+Currently supports three languages en, fr and ja. The application initially loads the language from the window's search query params and then also supports in-app language switching.
 
 You can switch the language either through:
 
