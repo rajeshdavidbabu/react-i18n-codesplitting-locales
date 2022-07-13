@@ -2,6 +2,9 @@
 
 A simple react-i18n to code-split locale files using dynamic imports.
 
+## Blog
+https://medium.com/gitconnected/code-splitting-react-i18n-locales-using-dynamic-imports-97af247ad6f0
+
 ## Installation and Running
 
 ```js
